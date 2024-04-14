@@ -1637,7 +1637,7 @@ section {
   color: #152b79;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #subscribe {
     background-attachment: fixed;
   }
@@ -1678,7 +1678,7 @@ section {
   #subscribe button {
     margin-top: 10px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Breadcrumbs
