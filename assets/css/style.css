@@ -530,6 +530,10 @@ section {
   background-color: #fafafb;
 }
 
+.section-with-bg {
+  background-color: #f6f7fd;
+}
+
 .section-title {
   text-align: center;
   padding-bottom: 50px;
