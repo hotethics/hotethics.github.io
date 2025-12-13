@@ -70,6 +70,23 @@
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", "EB Garamond", serif;
     }
 
+    /* Section headers */
+    .section-title h2,
+    .section-title h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .hero-subtext {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
     /* Navbar styling */
     .logo,
     .logo a {
@@ -89,6 +106,10 @@
     .navbar .nav-link {
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", "EB Garamond", serif !important;
       font-size: 1.1rem !important;
+    }
+
+    .submission-text {
+      font-size: 1.05rem;
     }
   </style>
 
@@ -140,8 +161,8 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animated fadeInDown">Hot Topics in <span>Ethical Computer Systems</span></h2>
-              <p class="animated fadeInUp"> <b><font size = "5">Workshop @ ASPLOS 2026</font></b></p>
-              <p class="animated fadeInUp"> <b><font size = "5">(Date and Location TBA)</font></b></p>
+              <p class="animated fadeInUp hero-text"><b>Workshop @ ASPLOS 2026</b></p>
+              <p class="animated fadeInUp hero-subtext"><b>(Date and Location TBA)</b></p>
               <!-- <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a> -->
             </div>
           </div>
@@ -158,8 +179,8 @@
       <div class="container">
 
         <div class="text-right">
-          <h3><font size = "6">About</font></h3>
-          <p> <font size = "3">The Workshop on Hot Topics in Ethical Computer Systems (HotEthics'25) provides a unique forum for cutting-edge research on identifying challenges and exploring innovative approaches to align technology with ethical principles in computer systems. Building on the success of our inaugural workshop in 2024, HotEthics'25 continues to bring together researchers to share their research and experiences, while discussing new challenges and opportunities in building socially conscious system infrastructures. The topics span across the full system stack with a focus on potential ethical concerns arising from system and architecture design choices, or resolving existing ethical issues through careful system and architecture design.</font></p>
+          <h3>About</h3>
+          <p>The Workshop on Hot Topics in Ethical Computer Systems (HotEthics'25) provides a unique forum for cutting-edge research on identifying challenges and exploring innovative approaches to align technology with ethical principles in computer systems. Building on the success of our inaugural workshop in 2024, HotEthics'25 continues to bring together researchers to share their research and experiences, while discussing new challenges and opportunities in building socially conscious system infrastructures. The topics span across the full system stack with a focus on potential ethical concerns arising from system and architecture design choices, or resolving existing ethical issues through careful system and architecture design.</p>
         </div>
 
       </div>
@@ -173,9 +194,9 @@
       <div class="container">
 
         <div class="text-right">
-          <h3 style="text-align: center;"><font size = "8"><b>Call for Papers</b></font></h3>
-           <p> <font size = "3">HotEthics’26 invites submissions that address or critically examine the ethical implications of modern systems and architectures. Topics of interest include, but are not limited to: </font></p>
-          <ul><font size = "3">
+          <h2 class="text-center mb-4"><b>Call for Papers</b></h2>
+           <p>HotEthics'26 invites submissions that address or critically examine the ethical implications of modern systems and architectures. Topics of interest include, but are not limited to:</p>
+          <ul>
             <li>Environmental impact of system designs</li>
             <li>Systems and architectures for rural and developing communities</li>
             <li>Biases introduced by modern computer systems</li>
@@ -184,26 +205,40 @@
             <li>Biases in machine learning for systems</li>
             <li>Benchmarking practices and their ethical implications</li>
             <li>System reliability, maintainability, and long-term societal impact</li>
-          </font></ul>
+          </ul>
         </div>
 
-        <div class="text-right">
-          <h3><font size = "5">Submission Guidelines</font></h3>
-          <p> <font size = "3">HotEthics'25 welcomes submissions of both short papers (2 pages) and long papers (4 pages), excluding references, using a double-column format (11 pt and 8.5 in x 11 in). Accepted papers and presentation slides will be made available on the workshop website. Reviews will not be blind, so please submit without anonymizing authors.</font></p>
-          <p> <font size = "3">
-            There will be no formal proceedings, allowing authors the flexibility to extend and publish their work in other conferences and journals. The workshop also welcomes summaries of the authors' previous work in the area and how it applies to socially-responsible system design. The HotEthics'25 workshop will also extend invitations for talks from both industry and academia.
-          </font></p>
-          <p> <font size = "3"><b>Submission link will be available soon.</b></font></p>
+    <div class="text-right mt-4">
+    <h3>Submission Guidelines</h3>
 
-        </div>
+        <p class="submission-text">
+          <strong>Short papers:</strong> up to 2 pages (excluding references).<br>
+          <strong>Long papers:</strong> up to 4 pages (excluding references).
+        </p>
 
-        <div class="text-right">
-          <h3><font size = "5">Important Dates</font></h3>
-          <ul><font size = "3">
+        <p class="submission-text">
+          <strong>Formatting:</strong> double-column format, 11pt font, US letter (8.5&quot; × 11&quot;).<br>
+          <strong>Review model:</strong> submissions should not be anonymized.
+        </p>
+
+        <p class="submission-text">
+          The workshop will not have formal proceedings, and authors are free to publish extended versions of their work in other conferences and journals.
+        </p>
+
+        <p class="submission-text">
+          Accepted papers and presentation slides will be made available on the workshop website.
+        </p>
+
+        <p class="submission-text"><strong>Submission link will be available soon.</strong></p>
+      </div>
+
+        <div class="text-right mt-4">
+          <h3>Important Dates</h3>
+          <ul>
             <li><b>Submission Deadline:</b> TBA</li>
             <li><b>Notification:</b> TBA</li>
             <li><b>Workshop:</b> TBA</li>
-          </font></ul>
+          </ul>
         </div>
 
       </div>
@@ -213,9 +248,9 @@
   <section id="program" class="section-with-bg">
     <div class="container" data-aos="fade-up">
       <div class="section-header">
-        <h3 style="text-align: center;"><font size = "8"><b>Workshop Program</b></font></h3>
-        <p style="text-align: center;"><font size = "4">Program details will be announced soon.</font></p>
-        <p style="text-align: center;"><font size = "3">Check back for updates on the workshop schedule, speakers, and accepted papers.</font></p>
+        <h2 class="text-center mb-4"><b>Workshop Program</b></h2>
+        <p class="text-center lead">Program details will be announced soon.</p>
+        <p class="text-center">Check back for updates on the workshop schedule, speakers, and accepted papers.</p>
       </div>
     </div>
   </section><!-- End Program Section -->
@@ -226,7 +261,7 @@
       <div class="container">
 
         <div class="section-title" style="text-align: center; margin-bottom: 50px;">
-          <h3><font size = "6">Organizers</font></h3>
+          <h2>Organizers</h2>
         </div>
 
         <style>
