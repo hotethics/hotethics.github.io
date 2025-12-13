@@ -168,34 +168,38 @@
         <style>
           .organizer-container {
             display: flex;
-            justify-content: center;
             flex-wrap: wrap;
-            gap: 40px;
+            justify-content: center;
+            gap: 2.5rem 2rem;
             margin: 0 auto;
-            max-width: 1000px;
+            max-width: 1200px;
           }
           .organizer-item {
             text-align: center;
-            width: 180px;
+            flex: 1 1 200px;
+            max-width: 220px;
           }
           .organizer-item a.img-link {
             display: block;
             margin-bottom: 15px;
           }
           .organizer-item img {
-            width: 160px;
-            height: 160px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
             object-fit: cover;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
             cursor: pointer;
+            filter: brightness(0.95);
+            margin: 0 auto;
           }
           .organizer-item img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transform: scale(1.08);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+            filter: brightness(1.1);
           }
           .organizer-item h4 {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600;
             margin-bottom: 5px;
           }
@@ -207,10 +211,10 @@
             color: #428bca;
           }
           .organizer-item p {
-            font-size: 13px;
+            font-size: 15px;
             color: #666;
             margin-bottom: 3px;
-            line-height: 1.4;
+            line-height: 1.5;
           }
           .organizer-item a {
             color: #428bca;
@@ -219,26 +223,40 @@
           .organizer-item a:hover {
             text-decoration: underline;
           }
-          @media (max-width: 768px) {
+          @media (max-width: 992px) {
             .organizer-container {
-              gap: 30px;
+              gap: 2rem 1.5rem;
             }
             .organizer-item {
-              width: 140px;
+              flex: 1 1 160px;
+              max-width: 180px;
             }
             .organizer-item img {
-              width: 120px;
-              height: 120px;
+              width: 160px;
+              height: 160px;
+            }
+          }
+          @media (max-width: 576px) {
+            .organizer-container {
+              gap: 1.5rem;
+            }
+            .organizer-item {
+              flex: 1 1 140px;
+              max-width: 160px;
+            }
+            .organizer-item img {
+              width: 140px;
+              height: 140px;
             }
             .organizer-item h4 {
-              font-size: 14px;
+              font-size: 16px;
             }
             .organizer-item p {
-              font-size: 12px;
+              font-size: 14px;
             }
           }
         </style>
-        
+
             <div class="organizer-container">
               <div class="organizer-item">
                 <a href="https://jaylenwang7.github.io/" class="img-link">
