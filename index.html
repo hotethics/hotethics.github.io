@@ -13,9 +13,6 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -28,6 +25,72 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Custom styling to match Reliable ML workshop aesthetic -->
+  <style>
+    :root {
+      --cream: #FFFDF6;
+      --link: #0066cc;
+      --link-hover: #004b99;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--cream);
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", "EB Garamond", serif;
+      color: #111;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    a:hover {
+      color: var(--link-hover);
+      text-decoration: none;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    .lead {
+      font-size: 1.05rem;
+    }
+
+    p, li {
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", "EB Garamond", serif;
+    }
+
+    /* Navbar styling */
+    .logo,
+    .logo a {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", "EB Garamond", serif !important;
+      font-size: 1.8rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.5px !important;
+      color: #ffffff !important;
+      transition: transform 0.3s ease !important;
+    }
+
+    .logo a:hover {
+      transform: scale(1.05);
+      color: #f0f0f0 !important;
+    }
+
+    .navbar .nav-link {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", "EB Garamond", serif !important;
+      font-size: 1.1rem !important;
+    }
+  </style>
 
   <!-- =======================================================
   * Template Name: Hidayah
@@ -199,28 +262,30 @@
             filter: brightness(1.1);
           }
           .organizer-item h4 {
-            font-size: 18px;
+            font-size: 1.1rem;
             font-weight: 600;
             margin-bottom: 5px;
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", "EB Garamond", serif;
           }
           .organizer-item h4 a {
-            color: #343a40;
+            color: #111;
             text-decoration: none;
           }
           .organizer-item h4 a:hover {
-            color: #428bca;
+            color: var(--link);
           }
           .organizer-item p {
-            font-size: 15px;
+            font-size: 0.95rem;
             color: #666;
             margin-bottom: 3px;
             line-height: 1.5;
           }
           .organizer-item a {
-            color: #428bca;
+            color: var(--link);
             text-decoration: none;
           }
           .organizer-item a:hover {
+            color: var(--link-hover);
             text-decoration: underline;
           }
           @media (max-width: 992px) {
@@ -249,10 +314,10 @@
               height: 140px;
             }
             .organizer-item h4 {
-              font-size: 16px;
+              font-size: 1rem;
             }
             .organizer-item p {
-              font-size: 14px;
+              font-size: 0.9rem;
             }
           }
         </style>
