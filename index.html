@@ -157,107 +157,172 @@
   </section><!-- End Program Section -->
 
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="team" class="testimonials">
-      <div class="container-fluid">
+    <!-- ======= Organizers Section ======= -->
+    <section id="team" style="padding: 60px 0;">
+      <div class="container">
 
-        <div class="section-title">
+        <div class="section-title" style="text-align: center; margin-bottom: 50px;">
           <h3><font size = "6">Organizers</font></h3>
         </div>
 
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
+        <style>
+          .organizer-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin: 0 auto;
+            max-width: 1000px;
+          }
+          .organizer-item {
+            text-align: center;
+            width: 180px;
+          }
+          .organizer-item a.img-link {
+            display: block;
+            margin-bottom: 15px;
+          }
+          .organizer-item img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+          }
+          .organizer-item img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+          }
+          .organizer-item h4 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+          }
+          .organizer-item h4 a {
+            color: #343a40;
+            text-decoration: none;
+          }
+          .organizer-item h4 a:hover {
+            color: #428bca;
+          }
+          .organizer-item p {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 3px;
+            line-height: 1.4;
+          }
+          .organizer-item a {
+            color: #428bca;
+            text-decoration: none;
+          }
+          .organizer-item a:hover {
+            text-decoration: underline;
+          }
+          @media (max-width: 768px) {
+            .organizer-container {
+              gap: 30px;
+            }
+            .organizer-item {
+              width: 140px;
+            }
+            .organizer-item img {
+              width: 120px;
+              height: 120px;
+            }
+            .organizer-item h4 {
+              font-size: 14px;
+            }
+            .organizer-item p {
+              font-size: 12px;
+            }
+          }
+        </style>
+        
+            <div class="organizer-container">
+              <div class="organizer-item">
+                <a href="https://jaylenwang7.github.io/" class="img-link">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" alt="Jaylen Wang">
+                </a>
+                <h4><a href="https://jaylenwang7.github.io/">Jaylen Wang</a></h4>
+                <p>Carnegie Mellon University</p>
+                <p><a href="mailto:jaylenw@andrew.cmu.edu">jaylenw at cmu dot edu</a></p>
+              </div>
 
-            <div class="row">
+              <div class="organizer-item">
+                <a href="https://smahdizadeh.github.io/" class="img-link">
+                  <img src="assets/img/testimonials/sara.jpg" alt="Sara Mahdizadeh Shahri">
+                </a>
+                <h4><a href="https://smahdizadeh.github.io/">Sara Mahdizadeh Shahri</a></h4>
+                <p>Carnegie Mellon University</p>
+                <p><a href="mailto:smahdiz@cmu.edu">smahdiz at cmu dot edu</a></p>
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" height="80" width="320">
-                  <h3><a href="https://jaylenwang7.github.io/">Jaylen Wang</a></h3>
-                  <p>Carnegie Mellon University <br/> <a href="mailto:jaylenw@andrew.cmu.edu">jaylenw at cmu dot edu</a></p>
-                </div>
-              </div><!-- End testimonial-item -->
+              <div class="organizer-item">
+                <a href="https://codverch.github.io/deepanjalimishra/" class="img-link">
+                  <img src="assets/img/testimonials/deepanjali.jpg" alt="Deepanjali Mishra">
+                </a>
+                <h4><a href="https://codverch.github.io/deepanjalimishra/">Deepanjali Mishra</a></h4>
+                <p>Carnegie Mellon University</p>
+                <p><a href="mailto:deepanjm@andrew.cmu.edu">deepanjm at cmu dot edu</a></p>
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item mt-4 mt-lg-0">
-                  <img src="assets/img/testimonials/sara.jpg" class="testimonial-img" alt="" height="80" width="320">
-                  <h3><a href="https://smahdizadeh.github.io/">Sara Mahdizadeh Shahri</a></h3>
-                  <p>Carnegie Mellon University <br/> <a href="mailto:smahdiz@cmu.edu">smahdiz at cmu dot edu</a></p>
-                </div>
-              </div><!-- End testimonial-item -->
+              <div class="organizer-item">
+                <a href="https://www.abnashkb.com" class="img-link">
+                  <img src="assets/img/testimonials/abnash.jpg" alt="Abnash Bassi">
+                </a>
+                <h4><a href="https://www.abnashkb.com">Abnash Bassi</a></h4>
+                <p>Carnegie Mellon University</p>
+                <p><a href="mailto:abassi@andrew.cmu.edu">abassi at cmu dot edu</a></p>
+              </div>
 
-               <div class="col-lg-6">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/deepanjali.jpg" class="testimonial-img" alt="" height="80" width="320">
-                  <h3><a href="https://jaylenwang7.github.io/">Deepanjali Mishra</a></h3>
-                  <p>Carnegie Mellon University <br/> <a href="mailto:deepanjm@andrew.cmu.edu">deepanjm at cmu dot edu</a></p>
-                </div>
-              </div><!-- End testimonial-item -->
+              <div class="organizer-item">
+                <a href="https://edge.seas.harvard.edu/people/vijay-janapa-reddi" class="img-link">
+                  <img src="assets/img/testimonials/vijay-reddi.jpeg" alt="Vijay Janapa Reddi">
+                </a>
+                <h4><a href="https://edge.seas.harvard.edu/people/vijay-janapa-reddi">Vijay Janapa Reddi</a></h4>
+                <p>Harvard University</p>
+                <p><a href="mailto:vj@eecs.harvard.edu">vj at eecs dot harvard dot edu</a></p>
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/abnash.jpg" class="testimonial-img" alt="" height="80" width="320">
-                  <h3><a href="https://jaylenwang7.github.io/">Abnash Bassi</a></h3>
-                  <p>Carnegie Mellon University <br/> <a href="mailto:abassi@andrew.cmu.edu">abassi at cmu dot edu</a></p>
-                </div>
-              </div><!-- End testimonial-item -->
+              <div class="organizer-item">
+                <a href="https://cs.stanford.edu/~fiodar/" class="img-link">
+                  <img src="assets/img/testimonials/fiodar-kazhamiaka.jpg" alt="Fiodar Kazhamiaka">
+                </a>
+                <h4><a href="https://cs.stanford.edu/~fiodar/">Fiodar Kazhamiaka</a></h4>
+                <p>Microsoft Research</p>
+                <p><a href="mailto:fkazhamiaka@microsoft.com">fkazhamiaka at microsoft dot com</a></p>
+              </div>
 
-               <div class="col-lg-6">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/vijay-reddi.jpeg" class="testimonial-img" alt="" height="80" width="320">
-                  <h3><a href="https://jaylenwang7.github.io/">Vijay Janapa Reddi</a></h3>
-                  <p>Harvard University <br/> <a href="mailto:vj@eecs.harvard.edu">vj at eecs dot harvard dot edu</a></p>
-                </div>
-              </div><!-- End testimonial-item -->
+              <div class="organizer-item">
+                <a href="https://jbalkind.github.io" class="img-link">
+                  <img src="assets/img/testimonials/jonathan-balkind.jpeg" alt="Jonathan Balkind">
+                </a>
+                <h4><a href="https://jbalkind.github.io">Jonathan Balkind</a></h4>
+                <p>UC Santa Barbara</p>
+                <p><a href="mailto:jbalkind@ucsb.edu">jbalkind at ucsb dot edu</a></p>
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/fiodar-kazhamiaka.jpg" class="testimonial-img" alt="" height="80" width="320">
-                  <h3><a href="#">Fiodar Kazhamiaka</a></h3>
-                  <p>
-                    Microsoft Research <br/>
-                    <a href="mailto:fkazhamiaka@microsoft.com">fkazhamiaka at microsoft dot com</a>
-                  </p>
-                </div>
-              </div><!-- End testimonial-item -->
+              <div class="organizer-item">
+                <a href="http://josiahhester.com" class="img-link">
+                  <img src="assets/img/testimonials/josiah-hester.jpeg" alt="Josiah D. Hester">
+                </a>
+                <h4><a href="http://josiahhester.com">Josiah D. Hester</a></h4>
+                <p>Georgia Tech</p>
+                <p><a href="mailto:josiah@gatech.edu">josiah at gatech dot edu</a></p>
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/jonathan-balkind.jpeg" class="testimonial-img" alt="" height="80" width="320">
-                  <h3><a href="#">Jonathan Balkind</a></h3>
-                  <p>
-                    UC Santa Barbara <br/>
-                    <a href="mailto:jbalkind@ucsb.edu">jbalkind at ucsb dot edu</a>
-                  </p>
-                </div>
-              </div><!-- End testimonial-item -->
-
-              <div class="col-lg-6">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/josiah-hester.jpeg" class="testimonial-img" alt="" height="80" width="320">
-                  <h3><a href="#">Josiah D. Hester</a></h3>
-                  <p>
-                    Georgia Tech <br/>
-                    <a href="mailto:josiah@gatech.edu">josiah at gatech dot edu</a>
-                  </p>
-                </div>
-              </div><!-- End testimonial-item -->
-
-
-              <div class="col-lg-6">
-                <div class="testimonial-item mt-4">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="" height="80" width="320">
-                  <h3><a href="https://users.ece.cmu.edu/~asrirama/">Akshitha Sriraman</a></h3>
-                  <p>Carnegie Mellon University <br/> <a href="mailto:akshitha@cmu.edu">akshitha at cmu dot edu</a></p>
-                </div>
-              </div><!-- End testimonial-item -->
-
+              <div class="organizer-item">
+                <a href="https://users.ece.cmu.edu/~asrirama/" class="img-link">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" alt="Akshitha Sriraman">
+                </a>
+                <h4><a href="https://users.ece.cmu.edu/~asrirama/">Akshitha Sriraman</a></h4>
+                <p>Carnegie Mellon University</p>
+                <p><a href="mailto:akshitha@cmu.edu">akshitha at cmu dot edu</a></p>
+              </div>
             </div>
-          </div>
-        </div>
-
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- End Organizers Section -->
 
   </main><!-- End #main -->
 
