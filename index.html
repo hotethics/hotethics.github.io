@@ -171,7 +171,7 @@
 
   <main id="main">
     <!-- ======= About Section ======= -->
-    <section id="about" style="background: none; color: #000;">
+    <section id="about" style="background: #f8f9fa; color: #000; padding: 60px 0;">
       <div class="container">
         <div class="text-center" style="padding: 40px 0;">
       <p style="font-size: 1.25rem; line-height: 1.7; max-width: 800px; margin: 0 auto; text-align: left; color: #000;">
@@ -195,7 +195,7 @@
 
     <!-- ======= Services Section ======= -->
 
-  <section id="CFP" class="services">
+  <section id="CFP" class="services" style="background: #ffffff; padding: 60px 0;">
       <div class="container">
 
         <div class="text-right">
@@ -216,25 +216,25 @@
     <div class="text-right mt-4">
     <h3>Submission Guidelines</h3>
 
-        <p class="submission-text">
+        <p>
           <strong>Short papers:</strong> up to 2 pages (excluding references).<br>
           <strong>Long papers:</strong> up to 4 pages (excluding references).
         </p>
 
-        <p class="submission-text">
+        <p>
           <strong>Formatting:</strong> double-column format, 11pt font, US letter (8.5&quot; × 11&quot;).<br>
           <strong>Review model:</strong> submissions should not be anonymized.
         </p>
 
-        <p class="submission-text">
-          The workshop will not have formal proceedings, and authors are free to publish extended versions of their work in other conferences and journals.
+        <p>
+          <em style="color: #C41230;">The workshop will not have formal proceedings, and authors are free to publish extended versions of their work in other conferences and journals.</em>
         </p>
 
-        <p class="submission-text">
+        <p>
           Accepted papers and presentation slides will be made available on the workshop website.
         </p>
 
-        <p class="submission-text"><strong>Submission link will be available soon.</strong></p>
+        <p><strong>Submission link will be available soon.</strong></p>
       </div>
 
         <div class="text-right mt-4">
@@ -251,7 +251,7 @@
 
 
     <!-- ======= Organizers Section ======= -->
-    <section id="team" style="padding: 60px 0;">
+    <section id="team" style="background: #f8f9fa; padding: 60px 0;">
       <div class="container">
 
         <div class="section-title" style="text-align: center; margin-bottom: 50px;">
@@ -260,17 +260,17 @@
 
         <style>
           .organizer-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             gap: 2.5rem 2rem;
             margin: 0 auto;
-            max-width: 1200px;
+            max-width: 1000px;
+            justify-items: center;
           }
           .organizer-item {
             text-align: center;
-            flex: 1 1 200px;
-            max-width: 220px;
+            width: 100%;
+            max-width: 280px;
           }
           .organizer-item a.img-link {
             display: block;
@@ -319,10 +319,10 @@
           }
           @media (max-width: 992px) {
             .organizer-container {
+              grid-template-columns: repeat(2, 1fr);
               gap: 2rem 1.5rem;
             }
             .organizer-item {
-              flex: 1 1 160px;
               max-width: 180px;
             }
             .organizer-item img {
@@ -332,11 +332,11 @@
           }
           @media (max-width: 576px) {
             .organizer-container {
+              grid-template-columns: repeat(1, 1fr);
               gap: 1.5rem;
             }
             .organizer-item {
-              flex: 1 1 140px;
-              max-width: 160px;
+              max-width: 200px;
             }
             .organizer-item img {
               width: 140px;
@@ -358,7 +358,7 @@
                 </a>
                 <h4><a href="https://jaylenwang7.github.io/">Jaylen Wang</a></h4>
                 <p>Carnegie Mellon University</p>
-                <p><a href="/cdn-cgi/l/email-protection#3359524a5f565d4473525d574156441d505e461d565746">jaylenw at cmu dot edu</a></p>
+                <p style="color: #C41230;">jaylenw@cmu.edu</p>
               </div>
 
               <div class="organizer-item">
@@ -367,7 +367,7 @@
                 </a>
                 <h4><a href="https://smahdizadeh.github.io/">Sara Mahdizadeh Shahri</a></h4>
                 <p>Carnegie Mellon University</p>
-                <p><a href="/cdn-cgi/l/email-protection#5b28363a333f32211b38362e753e3f2e">smahdiz at cmu dot edu</a></p>
+                <p style="color: #C41230;">smahdiz@cmu.edu</p>
               </div>
 
               <div class="organizer-item">
@@ -376,7 +376,7 @@
                 </a>
                 <h4><a href="https://codverch.github.io/deepanjalimishra/">Deepanjali Mishra</a></h4>
                 <p>Carnegie Mellon University</p>
-                <p><a href="/cdn-cgi/l/email-protection#660203031607080c0b2607080214031148050b1348030213">deepanjm at cmu dot edu</a></p>
+                <p style="color: #C41230;">deepanjm@cmu.edu</p>
               </div>
 
               <div class="organizer-item">
@@ -385,7 +385,7 @@
                 </a>
                 <h4><a href="https://www.abnashkb.com">Abnash Bassi</a></h4>
                 <p>Carnegie Mellon University</p>
-                <p><a href="/cdn-cgi/l/email-protection#99f8fbf8eaeaf0d9f8f7fdebfceeb7faf4ecb7fcfdec">abassi at cmu dot edu</a></p>
+                <p style="color: #C41230;">abassi@cmu.edu</p>
               </div>
 
               <div class="organizer-item">
@@ -394,7 +394,7 @@
                 </a>
                 <h4><a href="https://edge.seas.harvard.edu/people/vijay-janapa-reddi">Vijay Janapa Reddi</a></h4>
                 <p>Harvard University</p>
-                <p><a href="/cdn-cgi/l/email-protection#691f03290c0c0a1a4701081b1f081b0d470c0d1c">vj at eecs dot harvard dot edu</a></p>
+                <p style="color: #C41230;">vj@eecs.harvard.edu</p>
               </div>
 
               <div class="organizer-item">
@@ -403,7 +403,7 @@
                 </a>
                 <h4><a href="https://cs.stanford.edu/~fiodar/">Fiodar Kazhamiaka</a></h4>
                 <p>Microsoft Research</p>
-                <p><a href="/cdn-cgi/l/email-protection#84e2efe5feece5e9ede5efe5c4e9ede7f6ebf7ebe2f0aae7ebe9">fkazhamiaka at microsoft dot com</a></p>
+                <p style="color: #C41230;">fkazhamiaka@microsoft.com</p>
               </div>
 
               <div class="organizer-item">
@@ -412,7 +412,7 @@
                 </a>
                 <h4><a href="https://jbalkind.github.io">Jonathan Balkind</a></h4>
                 <p>UC Santa Barbara</p>
-                <p><a href="/cdn-cgi/l/email-protection#b8d2dad9d4d3d1d6dcf8cddbcbda96dddccd">jbalkind at ucsb dot edu</a></p>
+                <p style="color: #C41230;">jbalkind@ucsb.edu</p>
               </div>
 
               <div class="organizer-item">
@@ -421,7 +421,7 @@
                 </a>
                 <h4><a href="http://josiahhester.com">Josiah D. Hester</a></h4>
                 <p>Georgia Tech</p>
-                <p><a href="/cdn-cgi/l/email-protection#513b3e22383039113630253432397f343524">josiah at gatech dot edu</a></p>
+                <p style="color: #C41230;">josiah@gatech.edu</p>
               </div>
 
               <div class="organizer-item">
@@ -430,7 +430,7 @@
                 </a>
                 <h4><a href="https://users.ece.cmu.edu/~asrirama/">Akshitha Sriraman</a></h4>
                 <p>Carnegie Mellon University</p>
-                <p><a href="/cdn-cgi/l/email-protection#70111b03181904181130131d055e151405">akshitha at cmu dot edu</a></p>
+                <p style="color: #C41230;">akshitha@cmu.edu</p>
               </div>
             </div>
       </div>
