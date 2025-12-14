@@ -112,6 +112,383 @@
     .services {
       padding-top: 60px;
     }
+
+    /* MOBILE RESPONSIVENESS - COMPREHENSIVE */
+    @media (max-width: 768px) {
+      /* Scale down all font sizes */
+      body {
+        font-size: 18px;
+      }
+
+      .lead {
+        font-size: 1rem;
+      }
+
+      p, li {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      .section-title h2,
+      .section-title h3,
+      section h2 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+      }
+
+      section h3 {
+        font-size: 1.4rem;
+      }
+
+      #CFP ul li {
+        font-size: 1rem;
+      }
+
+      /* Hero section adjustments */
+      #hero {
+        height: 35vh;
+      }
+
+      #hero h2 {
+        font-size: 1.5rem !important;
+        margin-bottom: 15px;
+      }
+
+      #hero p {
+        font-size: 0.9rem !important;
+        margin-bottom: 15px;
+      }
+
+      #hero p b font {
+        font-size: 0.9rem !important;
+      }
+
+      #hero .carousel-container {
+        padding: 20px 10px !important;
+        top: 50px;
+        left: 20px;
+        right: 20px;
+      }
+
+      /* About section */
+      #about {
+        padding: 40px 0 !important;
+      }
+
+      #about .text-center {
+        padding: 20px 0 !important;
+      }
+
+      #about p {
+        font-size: 1rem !important;
+        padding: 0 10px;
+        max-width: 100% !important;
+      }
+
+      /* CFP section */
+      #CFP {
+        padding: 40px 0 !important;
+      }
+
+      #CFP h2 {
+        font-size: 1.75rem !important;
+        margin-bottom: 1.5rem;
+      }
+
+      #CFP h3 {
+        font-size: 1.35rem !important;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+      }
+
+      #CFP p {
+        font-size: 1rem !important;
+        line-height: 1.5;
+      }
+
+      #CFP ul {
+        padding-left: 20px;
+      }
+
+      #CFP .text-right {
+        padding: 0 10px;
+      }
+
+      /* Team section */
+      #team {
+        padding: 40px 0 !important;
+      }
+
+      #team .section-title {
+        margin-bottom: 30px;
+      }
+
+      #team h2 {
+        font-size: 1.75rem !important;
+      }
+
+      /* Logo sizing */
+      .logo,
+      .logo a {
+        font-size: 1.3rem !important;
+      }
+
+      .navbar .nav-link {
+        font-size: 0.95rem !important;
+        padding: 8px 0 8px 15px !important;
+      }
+
+      /* Footer */
+      footer {
+        padding: 15px 0 !important;
+      }
+
+      footer p {
+        font-size: 0.85rem !important;
+        padding: 0 10px;
+      }
+
+      /* Reduce padding on containers */
+      .container {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      /* Even smaller adjustments for very small phones */
+      body {
+        font-size: 16px;
+      }
+
+      #hero {
+        height: 40vh;
+      }
+
+      #hero h2 {
+        font-size: 1.25rem !important;
+        margin-bottom: 10px;
+      }
+
+      #hero p {
+        font-size: 0.8rem !important;
+        margin-bottom: 10px;
+      }
+
+      #hero p b font {
+        font-size: 0.8rem !important;
+      }
+
+      #hero .carousel-container {
+        padding: 15px 10px !important;
+        left: 10px;
+        right: 10px;
+      }
+
+      .section-title h2,
+      section h2,
+      #team h2,
+      #CFP h2 {
+        font-size: 1.5rem !important;
+      }
+
+      section h3,
+      #CFP h3 {
+        font-size: 1.2rem !important;
+      }
+
+      p, li {
+        font-size: 0.95rem;
+      }
+
+      #about p,
+      #CFP p {
+        font-size: 0.95rem !important;
+      }
+
+      .logo,
+      .logo a {
+        font-size: 1.1rem !important;
+      }
+
+      .navbar .nav-link {
+        font-size: 0.85rem !important;
+        padding: 6px 0 6px 12px !important;
+      }
+
+      footer p {
+        font-size: 0.75rem !important;
+      }
+
+      /* Tighter spacing on small phones */
+      .container {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      #CFP .text-right {
+        padding: 0 5px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      /* Extra small phones */
+      body {
+        font-size: 15px;
+      }
+
+      #hero h2 {
+        font-size: 1.1rem !important;
+      }
+
+      #hero p {
+        font-size: 0.75rem !important;
+      }
+
+      #hero p b font {
+        font-size: 0.75rem !important;
+      }
+
+      .section-title h2,
+      section h2,
+      #team h2,
+      #CFP h2 {
+        font-size: 1.35rem !important;
+      }
+
+      section h3,
+      #CFP h3 {
+        font-size: 1.1rem !important;
+      }
+
+      .logo,
+      .logo a {
+        font-size: 1rem !important;
+      }
+    }
+
+    /* Organizer styles */
+    .organizer-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem 2rem;
+      margin: 0 auto;
+      max-width: 1000px;
+      justify-items: center;
+    }
+    
+    .organizer-item {
+      text-align: center;
+      width: 100%;
+      max-width: 280px;
+    }
+    
+    .organizer-item a.img-link {
+      display: block;
+      margin-bottom: 15px;
+    }
+    
+    .organizer-item img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+      cursor: pointer;
+      filter: brightness(0.95);
+      margin: 0 auto;
+    }
+    
+    .organizer-item img:hover {
+      transform: scale(1.08);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+      filter: brightness(1.1);
+    }
+    
+    .organizer-item h4 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    
+    .organizer-item h4 a {
+      color: #111;
+      text-decoration: none;
+    }
+    
+    .organizer-item h4 a:hover {
+      color: var(--link);
+    }
+    
+    .organizer-item p {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 3px;
+      line-height: 1.5;
+    }
+    
+    .organizer-item a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    
+    .organizer-item a:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 992px) {
+      .organizer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem 1.5rem;
+      }
+      .organizer-item {
+        max-width: 220px;
+      }
+      .organizer-item img {
+        width: 160px;
+        height: 160px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .organizer-container {
+        gap: 1.5rem 1rem;
+      }
+      .organizer-item {
+        max-width: 180px;
+      }
+      .organizer-item img {
+        width: 140px;
+        height: 140px;
+      }
+      .organizer-item h4 {
+        font-size: 1.05rem;
+      }
+      .organizer-item p {
+        font-size: 0.95rem;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .organizer-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+      }
+      .organizer-item {
+        max-width: 200px;
+      }
+      .organizer-item img {
+        width: 130px;
+        height: 130px;
+      }
+      .organizer-item h4 {
+        font-size: 1rem;
+      }
+      .organizer-item p {
+        font-size: 0.9rem;
+      }
+    }
   </style>
 
   <!-- =======================================================
@@ -159,7 +536,7 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animated fadeInDown">Hot Topics in <span>Ethical Computer Systems</span></h2>
-              <p class="animated fadeInUp"><b><font size="5">Co-located with <a href="https://www.asplos-conference.org/asplos2026/" target="_blank" rel="noopener noreferrer">ASPLOS 2026</a><br />(Date and Location TBA)</font></b></p>
+              <p class="animated fadeInUp"><b><font size="5">Held in conjunction with <a href="https://www.asplos-conference.org/asplos2026/" target="_blank" rel="noopener noreferrer">ASPLOS 2026</a><br />(Date and Location TBA)</font></b></p>
             </div>
           </div>
         </div>
@@ -258,99 +635,6 @@
           <h2>Organizers</h2>
         </div>
 
-        <style>
-          .organizer-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2.5rem 2rem;
-            margin: 0 auto;
-            max-width: 1000px;
-            justify-items: center;
-          }
-          .organizer-item {
-            text-align: center;
-            width: 100%;
-            max-width: 280px;
-          }
-          .organizer-item a.img-link {
-            display: block;
-            margin-bottom: 15px;
-          }
-          .organizer-item img {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            object-fit: cover;
-            transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
-            cursor: pointer;
-            filter: brightness(0.95);
-            margin: 0 auto;
-          }
-          .organizer-item img:hover {
-            transform: scale(1.08);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-            filter: brightness(1.1);
-          }
-          .organizer-item h4 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 5px;
-          }
-          .organizer-item h4 a {
-            color: #111;
-            text-decoration: none;
-          }
-          .organizer-item h4 a:hover {
-            color: var(--link);
-          }
-          .organizer-item p {
-            font-size: 1.1rem;
-            color: #666;
-            margin-bottom: 3px;
-            line-height: 1.5;
-          }
-          .organizer-item a {
-            color: var(--link);
-            text-decoration: none;
-          }
-          .organizer-item a:hover {
-            color: var(--link-hover);
-            text-decoration: underline;
-          }
-          @media (max-width: 992px) {
-            .organizer-container {
-              grid-template-columns: repeat(2, 1fr);
-              gap: 2rem 1.5rem;
-            }
-            .organizer-item {
-              max-width: 180px;
-            }
-            .organizer-item img {
-              width: 160px;
-              height: 160px;
-            }
-          }
-          @media (max-width: 576px) {
-            .organizer-container {
-              grid-template-columns: repeat(1, 1fr);
-              gap: 1.5rem;
-            }
-            .organizer-item {
-              max-width: 200px;
-            }
-            .organizer-item img {
-              width: 140px;
-              height: 140px;
-            }
-            .organizer-item h4 {
-              font-size: 1rem;
-            }
-            .organizer-item p {
-              font-size: 0.9rem;
-            }
-          }
-        </style>
-
             <div class="organizer-container">
               <div class="organizer-item">
                 <a href="https://jaylenwang7.github.io/" class="img-link">
@@ -425,6 +709,15 @@
               </div>
 
               <div class="organizer-item">
+                <a href="https://trevorcarlson.com" class="img-link">
+                  <img src="assets/img/testimonials/trevor.png" alt="Trevor E. Carlson">
+                </a>
+                <h4><a href="https://trevorcarlson.com">Trevor E. Carlson</a></h4>
+                <p>National University of Singapore</p>
+                <p style="color: #C41230;">tcarlson@nus.edu.sg</p>
+              </div>
+
+              <div class="organizer-item" style="grid-column: 2;">
                 <a href="https://users.ece.cmu.edu/~asrirama/" class="img-link">
                   <img src="assets/img/testimonials/testimonials-3.jpg" alt="Akshitha Sriraman">
                 </a>
@@ -443,7 +736,7 @@
     <div class="container">
       <div class="text-center">
         <p style="font-size: 1.1rem; color: #ffffff; font-style: italic; margin: 0;">
-          Last updated December 13, 2025 by Deepanjali Mishra
+          Last updated December 14, 2025 by Deepanjali Mishra
         </p>
       </div>
     </div>
@@ -465,6 +758,5 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 
 </html>
