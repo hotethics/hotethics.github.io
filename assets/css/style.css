@@ -433,7 +433,8 @@ strong {
   background-color: rgba(34, 39, 43, 0.8);
   overflow: hidden;
   position: relative;
-  margin-top: 90px; /* keep hero clear of fixed header */
+  margin-top: 0;
+  padding-top: 90px; /* offset hero content below fixed header without adding external gap */
 }
 
 #hero .carousel,
@@ -461,7 +462,7 @@ strong {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 110px;
+  top: 0;
   left: 50px;
   right: 50px;
 }
@@ -576,7 +577,8 @@ strong {
 @media (max-width: 768px) {
   #hero {
     height: 35vh;
-    margin-top: 70px;
+    margin-top: 0;
+    padding-top: 80px;
   }
   
   #hero h2 {
@@ -584,7 +586,7 @@ strong {
   }
   
   #hero .carousel-container {
-    top: 70px;
+    top: 0;
     left: 20px;
     right: 20px;
   }
@@ -703,11 +705,16 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
+    top: 0;
+    left: 15px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero {
+    padding-top: 70px;
 # About
---------------------------------------------------------------*/
-.about .icon-boxes h3 {
-  font-size: 1.75rem;
   font-weight: 700;
   color: #111;
   margin-bottom: 15px;
