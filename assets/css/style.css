@@ -433,6 +433,7 @@ strong {
   background-color: rgba(34, 39, 43, 0.8);
   overflow: hidden;
   position: relative;
+  margin-top: 90px; /* keep hero clear of fixed header */
 }
 
 #hero .carousel,
@@ -460,7 +461,7 @@ strong {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 70px;
+  top: 110px;
   left: 50px;
   right: 50px;
 }
@@ -575,6 +576,7 @@ strong {
 @media (max-width: 768px) {
   #hero {
     height: 35vh;
+    margin-top: 70px;
   }
   
   #hero h2 {
@@ -582,7 +584,7 @@ strong {
   }
   
   #hero .carousel-container {
-    top: 50px;
+    top: 70px;
     left: 20px;
     right: 20px;
   }
@@ -608,6 +610,7 @@ strong {
   }
   
   #hero .carousel-container {
+    top: 60px;
     left: 15px;
     right: 15px;
   }
@@ -2053,7 +2056,7 @@ section {
   line-height: 1;
 }
 
-#footer .footer-top .footer-links ul li {
+#foote r .footer-top .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
