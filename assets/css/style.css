@@ -198,6 +198,7 @@ strong {
 */
 .navbar {
   padding: 0;
+  background-color: #000;
 }
 
 .navbar ul {
@@ -219,7 +220,7 @@ strong {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   text-transform: none;
-  font-size: 2.1rem;
+  font-size: 2.4rem;
   font-weight: 600;
   color: #ffffff;
   white-space: nowrap;
