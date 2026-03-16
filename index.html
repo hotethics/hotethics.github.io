@@ -29,7 +29,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- Custom styling to match Reliable ML workshop aesthetic -->
   <style>
     :root {
       --cream: #FFFDF6;
@@ -63,14 +62,12 @@
       line-height: 1.6;
     }
 
-    /* Section headers */
     .section-title h2,
     .section-title h3 {
       font-size: 2.5rem;
       margin-bottom: 1rem;
     }
 
-    /* Navbar styling */
     .logo,
     .logo a {
       font-size: 1.8rem !important;
@@ -85,15 +82,14 @@
       color: #f0f0f0 !important;
     }
 
-      .navbar .nav-link {
-        font-size: 1.5rem !important;
-      }
+    .navbar .nav-link {
+      font-size: 1.5rem !important;
+    }
 
     .submission-text {
       font-size: 1.3rem;
     }
 
-    /* Make section titles consistent */
     section h2, section h3 {
       font-size: 2.5rem;
       margin-bottom: 1.5rem;
@@ -103,7 +99,6 @@
       font-size: 2rem;
     }
 
-    /* Increase CFP list items */
     #CFP ul li {
       font-size: 1.3rem;
       margin-bottom: 0.5rem;
@@ -113,264 +108,56 @@
       padding-top: 60px;
     }
 
-    /* MOBILE RESPONSIVENESS - COMPREHENSIVE */
-    /* Make entire navbar/header solid black */
     #header,
     #header.header-scrolled,
     #header.header-inner-pages {
       background: #000000 !important;
     }
+
     @media (max-width: 768px) {
-      /* Scale down all font sizes */
-      body {
-        font-size: 18px;
-      }
-
-      .lead {
-        font-size: 1rem;
-      }
-
-      p, li {
-        font-size: 1rem;
-        line-height: 1.5;
-      }
-
-      .section-title h2,
-      .section-title h3,
-      section h2 {
-        font-size: 1.75rem;
-        margin-bottom: 1rem;
-      }
-
-      section h3 {
-        font-size: 1.4rem;
-      }
-
-      #CFP ul li {
-        font-size: 1rem;
-      }
-
-      /* Hero section adjustments */
-      #hero {
-        height: 35vh;
-      }
-
-      #hero h2 {
-        font-size: 1.5rem !important;
-        margin-bottom: 15px;
-      }
-
-      #hero p {
-        font-size: 0.9rem !important;
-        margin-bottom: 15px;
-      }
-
-      #hero p b font {
-        font-size: 0.9rem !important;
-      }
-
-      #hero .carousel-container {
-        padding: 20px 10px !important;
-        top: 50px;
-        left: 20px;
-        right: 20px;
-      }
-
-      /* About section */
-      #about {
-        padding: 40px 0 !important;
-      }
-
-      #about .text-center {
-        padding: 20px 0 !important;
-      }
-
-      #about p {
-        font-size: 1rem !important;
-        padding: 0 10px;
-        max-width: 100% !important;
-      }
-
-      /* CFP section */
-      #CFP {
-        padding: 40px 0 !important;
-      }
-
-      #CFP h2 {
-        font-size: 1.75rem !important;
-        margin-bottom: 1.5rem;
-      }
-
-      #CFP h3 {
-        font-size: 1.35rem !important;
-        margin-top: 1.5rem;
-        margin-bottom: 0.75rem;
-      }
-
-      #CFP p {
-        font-size: 1rem !important;
-        line-height: 1.5;
-      }
-
-      #CFP ul {
-        padding-left: 20px;
-      }
-
-      #CFP .text-right {
-        padding: 0 10px;
-      }
-
-      /* Team section */
-      #team {
-        padding: 40px 0 !important;
-      }
-
-      #team .section-title {
-        margin-bottom: 30px;
-      }
-
-      #team h2 {
-        font-size: 1.75rem !important;
-      }
-
-      /* Logo sizing */
-      .logo,
-      .logo a {
-        font-size: 1.3rem !important;
-      }
-
-      .navbar .nav-link {
-        font-size: 0.95rem !important;
-        padding: 8px 0 8px 15px !important;
-      }
-
-      /* Footer */
-      footer {
-        padding: 15px 0 !important;
-      }
-
-      footer p {
-        font-size: 0.85rem !important;
-        padding: 0 10px;
-      }
-
-      /* Reduce padding on containers */
-      .container {
-        padding-left: 15px;
-        padding-right: 15px;
-      }
+      body { font-size: 18px; }
+      .lead { font-size: 1rem; }
+      p, li { font-size: 1rem; line-height: 1.5; }
+      .section-title h2, .section-title h3, section h2 { font-size: 1.75rem; margin-bottom: 1rem; }
+      section h3 { font-size: 1.4rem; }
+      #CFP ul li { font-size: 1rem; }
+      #hero { height: 35vh; }
+      #hero h2 { font-size: 1.5rem !important; margin-bottom: 15px; }
+      #hero p { font-size: 0.9rem !important; margin-bottom: 15px; }
+      #hero .carousel-container { padding: 20px 10px !important; top: 50px; left: 20px; right: 20px; }
+      #about { padding: 40px 0 !important; }
+      #about p { font-size: 1rem !important; padding: 0 10px; max-width: 100% !important; }
+      #CFP { padding: 40px 0 !important; }
+      #CFP h2 { font-size: 1.75rem !important; }
+      #CFP h3 { font-size: 1.35rem !important; }
+      #CFP p { font-size: 1rem !important; }
+      #team { padding: 40px 0 !important; }
+      .logo, .logo a { font-size: 1.3rem !important; }
+      .navbar .nav-link { font-size: 0.95rem !important; padding: 8px 0 8px 15px !important; }
+      footer p { font-size: 0.85rem !important; }
+      .container { padding-left: 15px; padding-right: 15px; }
     }
 
     @media (max-width: 576px) {
-      /* Even smaller adjustments for very small phones */
-      body {
-        font-size: 16px;
-      }
-
-      #hero {
-        height: 40vh;
-      }
-
-      #hero h2 {
-        font-size: 1.25rem !important;
-        margin-bottom: 10px;
-      }
-
-      #hero p {
-        font-size: 0.8rem !important;
-        margin-bottom: 10px;
-      }
-
-      #hero p b font {
-        font-size: 0.8rem !important;
-      }
-
-      #hero .carousel-container {
-        padding: 15px 10px !important;
-        left: 10px;
-        right: 10px;
-      }
-
-      .section-title h2,
-      section h2,
-      #team h2,
-      #CFP h2 {
-        font-size: 1.5rem !important;
-      }
-
-      section h3,
-      #CFP h3 {
-        font-size: 1.2rem !important;
-      }
-
-      p, li {
-        font-size: 0.95rem;
-      }
-
-      #about p,
-      #CFP p {
-        font-size: 0.95rem !important;
-      }
-
-      .logo,
-      .logo a {
-        font-size: 1.1rem !important;
-      }
-
-      .navbar .nav-link {
-        font-size: 0.85rem !important;
-        padding: 6px 0 6px 12px !important;
-      }
-
-      footer p {
-        font-size: 0.75rem !important;
-      }
-
-      /* Tighter spacing on small phones */
-      .container {
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-
-      #CFP .text-right {
-        padding: 0 5px;
-      }
+      body { font-size: 16px; }
+      #hero { height: 40vh; }
+      #hero h2 { font-size: 1.25rem !important; }
+      #hero p { font-size: 0.8rem !important; }
+      .section-title h2, section h2, #team h2, #CFP h2 { font-size: 1.5rem !important; }
+      section h3, #CFP h3 { font-size: 1.2rem !important; }
+      p, li { font-size: 0.95rem; }
+      .logo, .logo a { font-size: 1.1rem !important; }
+      .navbar .nav-link { font-size: 0.85rem !important; }
+      footer p { font-size: 0.75rem !important; }
     }
 
     @media (max-width: 400px) {
-      /* Extra small phones */
-      body {
-        font-size: 15px;
-      }
-
-      #hero h2 {
-        font-size: 1.1rem !important;
-      }
-
-      #hero p {
-        font-size: 0.75rem !important;
-      }
-
-      #hero p b font {
-        font-size: 0.75rem !important;
-      }
-
-      .section-title h2,
-      section h2,
-      #team h2,
-      #CFP h2 {
-        font-size: 1.35rem !important;
-      }
-
-      section h3,
-      #CFP h3 {
-        font-size: 1.1rem !important;
-      }
-
-      .logo,
-      .logo a {
-        font-size: 1rem !important;
-      }
+      body { font-size: 15px; }
+      #hero h2 { font-size: 1.1rem !important; }
+      #hero p { font-size: 0.75rem !important; }
+      .section-title h2, section h2, #team h2, #CFP h2 { font-size: 1.35rem !important; }
+      section h3, #CFP h3 { font-size: 1.1rem !important; }
+      .logo, .logo a { font-size: 1rem !important; }
     }
 
     /* Organizer styles */
@@ -382,18 +169,18 @@
       max-width: 1000px;
       justify-items: center;
     }
-    
+
     .organizer-item {
       text-align: center;
       width: 100%;
       max-width: 280px;
     }
-    
+
     .organizer-item a.img-link {
       display: block;
       margin-bottom: 15px;
     }
-    
+
     .organizer-item img {
       width: 180px;
       height: 180px;
@@ -404,106 +191,62 @@
       filter: brightness(0.95);
       margin: 0 auto;
     }
-    
+
     .organizer-item img:hover {
       transform: scale(1.08);
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
       filter: brightness(1.1);
     }
-    
+
     .organizer-item h4 {
       font-size: 1.25rem;
       font-weight: 600;
       margin-bottom: 5px;
     }
-    
+
     .organizer-item h4 a {
       color: #111;
       text-decoration: none;
     }
-    
-    .organizer-item h4 a:hover {
-      color: var(--link);
-    }
-    
+
+    .organizer-item h4 a:hover { color: var(--link); }
+
     .organizer-item p {
       font-size: 1.1rem;
       color: #666;
       margin-bottom: 3px;
       line-height: 1.5;
     }
-    
-    .organizer-item a {
-      color: var(--link);
-      text-decoration: none;
-    }
-    
-    .organizer-item a:hover {
-      color: var(--link-hover);
-      text-decoration: underline;
-    }
-    
-    @media (max-width: 992px) {
-      .organizer-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem 1.5rem;
-      }
-      .organizer-item {
-        max-width: 220px;
-      }
-      .organizer-item img {
-        width: 160px;
-        height: 160px;
-      }
-    }
-    
-    @media (max-width: 768px) {
-      .organizer-container {
-        gap: 1.5rem 1rem;
-      }
-      .organizer-item {
-        max-width: 180px;
-      }
-      .organizer-item img {
-        width: 140px;
-        height: 140px;
-      }
-      .organizer-item h4 {
-        font-size: 1.05rem;
-      }
-      .organizer-item p {
-        font-size: 0.95rem;
-      }
-    }
-    
-    @media (max-width: 576px) {
-      .organizer-container {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1.5rem;
-      }
-      .organizer-item {
-        max-width: 200px;
-      }
-      .organizer-item img {
-        width: 130px;
-        height: 130px;
-      }
-      .organizer-item h4 {
-        font-size: 1rem;
-      }
-      .organizer-item p {
-        font-size: 0.9rem;
-      }
-    }
-  </style>
 
-  <!-- =======================================================
-  * Template Name: Hidayah
-  * Updated: Jan 09 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    .organizer-item a { color: var(--link); text-decoration: none; }
+    .organizer-item a:hover { color: var(--link-hover); text-decoration: underline; }
+
+    @media (max-width: 992px) {
+      .organizer-container { grid-template-columns: repeat(2, 1fr); gap: 2rem 1.5rem; }
+      .organizer-item { max-width: 220px; }
+      .organizer-item img { width: 160px; height: 160px; }
+    }
+
+    @media (max-width: 768px) {
+      .organizer-container { gap: 1.5rem 1rem; }
+      .organizer-item { max-width: 180px; }
+      .organizer-item img { width: 140px; height: 140px; }
+      .organizer-item h4 { font-size: 1.05rem; }
+      .organizer-item p { font-size: 0.95rem; }
+    }
+
+    @media (max-width: 576px) {
+      .organizer-container { grid-template-columns: repeat(1, 1fr); gap: 1.5rem; }
+      .organizer-item { max-width: 200px; }
+      .organizer-item img { width: 130px; height: 130px; }
+      .organizer-item h4 { font-size: 1rem; }
+      .organizer-item p { font-size: 0.9rem; }
+    }
+
+    /* Program: consistent author and affiliation styling */
+    .program-table .program-author { font-weight: 600; color: #111; }
+    .program-table .program-affiliation { color: #555; font-weight: 400; }
+  </style>
 </head>
 
 <body>
@@ -513,141 +256,303 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <h1 class="logo"><a href="index.html">HotEthics 2026</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#program">Program</a></li>
           <li><a class="nav-link scrollto" href="#CFP">Call for Papers</a></li>
           <li><a class="nav-link scrollto" href="#team">Organizers</a></li>
           <li><a class="nav-link" href="hotethics24.html">Previous Workshops</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
-
-
+  </header>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
       <div class="carousel-inner" role="listbox">
-
-        <!-- Slide 1 -->
         <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animated fadeInDown">Workshop on Ethical Systems and Architecture Design</span></h2>
-                <p class="animated fadeInUp"><b><font size="5">Held in conjunction with <a href="https://www.asplos-conference.org/asplos2026/" target="_blank" rel="noopener noreferrer" style="color: #21c412;">ASPLOS 2026</a><br />22nd March 2026, Sunday</font></b></p>
+              <h2 class="animated fadeInDown">Workshop on Ethical Systems and Architecture Design</h2>
+              <p class="animated fadeInUp"><b><font size="5">Held in conjunction with <a href="https://www.asplos-conference.org/asplos2026/" target="_blank" rel="noopener noreferrer" style="color: #21c412;">ASPLOS 2026</a><br />22nd March 2026, Sunday</font></b></p>
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
-  </section><!-- End Hero -->
+  </section>
 
   <main id="main">
+
     <!-- ======= About Section ======= -->
     <section id="about" style="background: #f8f9fa; color: #000; padding: 60px 0;">
       <div class="container">
         <div class="text-center" style="padding: 40px 0;">
-      <p style="font-size: 1.25rem; line-height: 1.7; max-width: 800px; margin: 0 auto; text-align: left; color: #000;">
-        <strong>Computer systems can unintentionally introduce bias, compromise privacy, or affect communities</strong> — 
-        how can we build systems that are both <strong>technically robust</strong> and <strong>socially responsible</strong>?
-      </p>
-      <br />
-      <p style="font-size: 1.25rem; line-height: 1.7; max-width: 800px; margin: 0 auto; text-align: left; color: #000;">
-        The Workshop on Ethical Systems and Architecture Design (<strong>HotEthics'26</strong>) provides a forum for research that 
-        identifies challenges and explores innovative approaches to align technology with ethical principles in computer systems. 
-        Building on the success of our inaugural 2024 workshop, HotEthics'26 brings together researchers to share 
-        experiences, discuss new challenges, and explore opportunities in building socially conscious system infrastructures. 
-        The workshop covers the <strong>full system stack</strong>, focusing on ethical concerns arising from system and architecture 
-        design choices and on resolving existing ethical issues through system-level design.
-      </p>
+          <p style="font-size: 1.25rem; line-height: 1.7; max-width: 800px; margin: 0 auto; text-align: left; color: #000;">
+            Hardware choices determine who pays the energy bill, who gets access, and whose data is at risk —
+            yet ethical questions rarely enter the systems design conversation.
+            How do we build infrastructure that is both <strong>technically excellent</strong> and <strong>socially responsible</strong>?
+          </p>
+          <br />
+          <p style="font-size: 1.25rem; line-height: 1.7; max-width: 800px; margin: 0 auto; text-align: left; color: #000;">
+            The Workshop on Ethical Systems and Architecture Design (<strong>HotEthics'26</strong>) brings together researchers
+            working across the <strong>full system stack</strong> — from microarchitecture to datacenter infrastructure — to
+            identify where design choices create or exacerbate ethical problems, and to develop system-level solutions.
+            Building on the inaugural 2024 workshop, HotEthics'26 is a forum for sharing early-stage work, challenging
+            prevailing assumptions, and forging connections across systems, architecture, and the broader societal-impact community.
+          </p>
+        </div>
+      </div>
+    </section>
 
+    <!-- ======= Program Section ======= -->
+    <section id="program" class="services" style="background: #ffffff; padding: 60px 0;">
+      <div class="container">
+        <div class="section-title">
+          <h2>Program</h2>
+          <p><strong>HotEthics'26</strong> — Sunday, March 22, 2026 &nbsp;|&nbsp; 13:30 – 18:00 (240 min)</p>
+        </div>
+
+        <h3 class="mt-4">Afternoon Block 1 &nbsp;<small class="text-muted" style="font-size:1.2rem;">13:30 – 15:30</small></h3>
+        <div class="table-responsive">
+          <table class="table table-bordered program-table" style="font-size: 1.05rem;">
+            <thead>
+              <tr><th style="width: 6em;">Time</th><th>Session / Talk</th><th>Authors / Affiliations</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>13:30 – 13:45</td><td>Opening Remarks</td><td>—</td></tr>
+
+              <tr><td colspan="3" class="bg-light"><strong>Session 1 — Economic &amp; AI Realities</strong> (45 min)</td></tr>
+              <tr>
+                <td>13:45</td>
+                <td>Big Tech: An Industry with an Increasingly High Energy-Revenue Intensity (#41)</td>
+                <td><span class="program-author">Lieven Eeckhout</span> <span class="program-affiliation">— Ghent University, Belgium</span></td>
+              </tr>
+              <tr>
+                <td>14:00</td>
+                <td>Tracing the Computer System Supply Chain (#2)</td>
+                <td><span class="program-author">Pranjali Jain, Pranav Gunhal, Jonathan Balkind, Timothy Sherwood</span></td>
+              </tr>
+              <tr>
+                <td>14:15</td>
+                <td>Characterizing the Intergenerational Carbon Footprint of AI Infrastructure (#18)</td>
+                <td><span class="program-author">Ruben Verheyden, Lieven Eeckhout</span> <span class="program-affiliation">— Ghent University, Belgium</span></td>
+              </tr>
+
+              <tr><td colspan="3" class="bg-light"><strong>Session 2 — Sustainable Hardware &amp; Efficient Infrastructure</strong> (60 min)</td></tr>
+              <tr>
+                <td>14:30</td>
+                <td>Do Energy-Harvesting Pixels Reduce Carbon Cost of Visual Computing Systems? (#12)</td>
+                <td><span class="program-author">Han Yan<sup>1</sup>, Yifei Zou<sup>2</sup>, Weikai Lin<sup>1</sup>, Xuan Zhang<sup>2</sup>, Yuhao Zhu<sup>1</sup></span><br>
+                  <span class="program-affiliation"><sup>1</sup>University of Rochester &nbsp; <sup>2</sup>Northeastern University</span>
+                </td>
+              </tr>
+              <tr>
+                <td>14:45</td>
+                <td>Bio-ReRAM Intelligence at the Edge Can Help Energy Efficiency and Sustainability for the Environment (#22)</td>
+                <td><span class="program-author">Aniket Das, Ryan Wong, Arjun Tyagi, Saugata Ghose</span> <span class="program-affiliation">— University of Illinois Urbana-Champaign</span></td>
+              </tr>
+              <tr>
+                <td>15:00</td>
+                <td>The Need for Computational Pluralism (#78)</td>
+                <td><span class="program-author">Deeksha Dangwal</span> <span class="program-affiliation">— Unaffiliated, Seattle, WA</span><br>
+                  <span class="program-author">Abhejit Rajagopal</span> <span class="program-affiliation">— Allen Institute, Seattle, WA</span></td>
+              </tr>
+              <tr>
+                <td>15:15</td>
+                <td>Fleet-Level Optimization for Heterogeneous Device Provisioning in Machine Learning Model Deployments (#84)</td>
+                <td><span class="program-author">Harry H. Jiang, Carlee Joe-Wong</span> <span class="program-affiliation">— Carnegie Mellon University</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="text-center my-4"><strong>15:30 – 16:00 &nbsp;—&nbsp; Coffee Break</strong></p>
+
+        <h3 class="mt-4">Afternoon Block 2 &nbsp;<small class="text-muted" style="font-size:1.2rem;">16:00 – 18:00</small></h3>
+        <div class="table-responsive">
+          <table class="table table-bordered program-table" style="font-size: 1.05rem;">
+            <thead>
+              <tr><th style="width: 6em;">Time</th><th>Session / Talk</th><th>Authors / Affiliations</th></tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="3" class="bg-light"><strong>Session 3 — Reliability, Privacy &amp; Fairness</strong> (45 min)</td></tr>
+              <tr>
+                <td>16:00</td>
+                <td>Challenges and Design Considerations for Finding CUDA Bugs Through GPU-Native Fuzzing (#93)</td>
+                <td><span class="program-author">Mingkai Li</span> <span class="program-affiliation">(Columbia University)</span>,
+                  <span class="program-author">Joseph Devietti</span> <span class="program-affiliation">(University of Pennsylvania)</span>,
+                  <span class="program-author">Suman Jana</span> <span class="program-affiliation">(Columbia University)</span>,
+                  <span class="program-author">Tanvir Ahmed Khan</span> <span class="program-affiliation">(Columbia University)</span></td>
+              </tr>
+              <tr>
+                <td>16:15</td>
+                <td>Accelerating Fully Homomorphic Encryption at Scale: Lessons from Storage-Centric System Design (#6)</td>
+                <td><span class="program-author">Xuan Wang, Tajana Rosing</span> <span class="program-affiliation">— University of California San Diego</span></td>
+              </tr>
+              <tr>
+                <td>16:30</td>
+                <td>Health-Aware AI Inference Scheduling with Long-Term Fairness Objectives (#66)</td>
+                <td><span class="program-author">Pengei Li</span> <span class="program-affiliation">(Rochester Institute of Technology)</span>,
+                  <span class="program-author">Yuelin Han</span> <span class="program-affiliation">(University of California, Riverside)</span>,
+                  <span class="program-author">Adam Wierman</span> <span class="program-affiliation">(California Institute of Technology)</span>,
+                  <span class="program-author">Shaolei Ren</span> <span class="program-affiliation">(University of California, Riverside)</span></td>
+              </tr>
+
+              <tr><td colspan="3" class="bg-light"><strong>Panel Discussion</strong> (60 min)</td></tr>
+              <tr>
+                <td>16:45 – 17:45</td>
+                <td colspan="2">See <a href="#panel" class="scrollto">Panelists</a> below.</td>
+              </tr>
+              <tr>
+                <td>17:45 – 18:00</td>
+                <td>Closing Remarks &amp; Networking</td>
+                <td>Welcome Reception begins at 18:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="small text-muted mt-2">All talks: 12 min presentation + 3 min Q&amp;A unless otherwise noted.</p>
+      </div>
+    </section>
+
+    <!-- ======= Panel Section ======= -->
+    <section id="panel" style="background: #f8f9fa; padding: 60px 0;">
+      <div class="container">
+        <div class="section-title">
+          <h2>Panel Discussion</h2>
+          <p>16:45 – 17:45</p>
+        </div>
+        <div class="row justify-content-center g-4">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="text-center">
+              <img src="assets/img/panelists/sarah-cen.jpg" alt="Sarah Cen"
+                class="rounded-circle mx-auto mb-3"
+                style="width: 180px; height: 180px; object-fit: cover;">
+              <h4><a href="https://sarahcen.com/" target="_blank" rel="noopener noreferrer">Sarah Cen</a></h4>
+              <p class="mb-1"><strong>Carnegie Mellon University</strong></p>
+              <p class="small text-muted mb-2">ECE / EPP</p>
+              <p class="small text-start">
+                Sarah studies accountability in AI systems — auditing, supply-chain transparency, and the legal and
+                evidentiary challenges that arise when machine learning systems cause harm.
+                She completed her PhD at MIT and a postdoc at Stanford HAI (Percy Liang, Daniel Ho),
+                and brings a rigorous framework for translating between policy requirements and systems research.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="text-center">
+              <img src="assets/img/panelists/babak.png" alt="Babak Falsafi"
+                class="rounded-circle mx-auto mb-3"
+                style="width: 180px; height: 180px; object-fit: cover;">
+              <h4><a href="https://parsa.epfl.ch/~falsafi/" target="_blank" rel="noopener noreferrer">Babak Falsafi</a></h4>
+              <p class="mb-1"><strong>EPFL</strong></p>
+              <p class="small text-muted mb-2">Founding Director, EcoCloud &nbsp;|&nbsp; President, SDEA</p>
+              <p class="small text-start">
+                Babak's research spans post-Moore server architecture and datacenter efficiency.
+                He founded the Swiss Datacenter Efficiency Association (SDEA) — the only quantitative
+                datacenter efficiency standard recognized by the IEA — and serves as the panel's
+                practitioner voice on bridging the gap between research and enforceable industry criteria.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="text-center">
+              <div class="rounded-circle mx-auto mb-3"
+                style="width: 180px; height: 180px; background: #dee2e6;
+                       display: flex; align-items: center; justify-content: center;
+                       color: #6c757d; font-size: 0.9rem;">
+                Photo TBD
+              </div>
+              <h4>Ian McDougall</h4>
+              <p class="mb-1"><strong>University of Wisconsin–Madison</strong></p>
+              <p class="small text-muted mb-2">PhD Student</p>
+              <p class="small text-start">
+                Ian's systems work examines access and equity in computing infrastructure: open-source RISC-V
+                toolchains for educational access, GPU cloud pricing fairness (Agora), and privacy-preserving
+                GPU performance profiling. He brings a ground-level perspective rooted in concrete systems
+                contributions and a critical eye toward the assumptions baked into current infrastructure.
+              </p>
+            </div>
+          </div>
 
         </div>
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-    <!-- ======= Services Section ======= -->
-
-  <section id="CFP" class="services" style="background: #ffffff; padding: 60px 0;">
+    <!-- ======= Call for Papers Section ======= -->
+    <section id="CFP" class="services" style="background: #ffffff; padding: 60px 0;">
       <div class="container">
 
         <div class="text-right">
           <h2 class="text-center mb-4"><b>Call for Papers</b></h2>
-           <p>HotEthics'26 invites submissions that address or critically examine the ethical implications of systems and architectures. Topics of interest include, but are not limited to:</p>
+
+          <p>
+            HotEthics'26 invites submissions that identify, analyze, or address the ethical dimensions of
+            systems and architecture design. We welcome work spanning the full system stack — from chips
+            and hardware to datacenter infrastructure and deployed ML pipelines.
+            Topics of interest include, but are not limited to:
+          </p>
           <ul>
-            <li>Environmental impact of system designs</li>
-            <li>Systems and architectures for rural and developing communities</li>
-            <li>Biases introduced by computer architecture and systems</li>
+            <li>Environmental impact of system design choices</li>
+            <li>Systems and architectures for underserved, rural, and developing communities</li>
+            <li>Bias introduced by computer architecture and systems</li>
             <li>Low-cost, low-power, and accessible device design</li>
             <li>Privacy- and security-aware system design</li>
-            <li>Biases in machine learning for systems</li>
+            <li>Bias in machine learning for systems</li>
             <li>Benchmarking practices and their ethical implications</li>
             <li>System reliability, maintainability, and long-term societal impact</li>
-            <li>Research methodology, evaluation norms, and incentives</li>
+            <li>Research methodology, evaluation norms, and incentive structures</li>
           </ul>
         </div>
 
-    <div class="text-right mt-4">
-      <h3>Submission Guidelines</h3>
+        <div class="text-right mt-4">
+          <h3>Submission Guidelines</h3>
 
-      <p>
-        We invite submissions in four categories: completed research papers, industry and practice papers, work-in-progress papers, and provocative or visionary takes (i.e., short papers that provoke, inspire, or motivate new approaches or ideas). 
-        <em>Note: submissions are not required to include formal quantitative or experimental results.</em>
-      </p>
+          <p>
+            We invite submissions in four categories: completed research papers, industry and practice papers,
+            work-in-progress papers, and short position papers that provoke, challenge, or motivate new directions.
+            Submissions are not required to include formal quantitative or experimental results.
+          </p>
 
-      <p>
-        <strong>Short papers:</strong> up to 2 pages (excluding references).<br>
-        <strong>Long papers:</strong> up to 4 pages (excluding references).
-      </p>
+          <p>
+            <strong>Short papers:</strong> up to 2 pages (excluding references).<br>
+            <strong>Long papers:</strong> up to 4 pages (excluding references).
+          </p>
 
-       <p>
-        <strong>Formatting:</strong> double-column format, 11pt font, US letter (8.5&quot; × 11&quot;).<br>
-        <strong>Review model:</strong> reviews will be single-blind; thus, submissions should not be anonymized.<br>
-        <em>
-          Note: at this time, we do not plan to provide formal written reviews or feedback to authors. 
-          All submissions will be reviewed by the organizing committee for relevance and fit.
-        </em>
-      </p>
-        
+          <p>
+            <strong>Formatting:</strong> double-column, 11pt font, US letter (8.5&quot; × 11&quot;).<br>
+            <strong>Review model:</strong> single-blind; submissions need not be anonymized.<br>
+            <em>Reviews are for acceptance decisions only — authors should not expect written feedback.</em>
+          </p>
 
-       <p>
-        <em>
-          The workshop will not have formal proceedings, and authors are free to publish extended versions of their work in other conferences and journals.
-        </em>
-      </p>
-      
-
-      <p>
-        Accepted papers and presentation slides will be made available on the workshop website.
-      </p>
-    </div>
-
+          <p>
+            HotEthics'26 is <strong>non-archival</strong>. Authors retain full freedom to submit extended versions
+            to conferences or journals. Accepted papers and slides will be posted on the workshop website.
+          </p>
+        </div>
 
         <div class="text-right mt-4">
           <h3>Important Dates</h3>
           <ul>
-            <li><b>Submission deadline:</b> <span style="color: #0922dd;"><b>30th January 2026, Friday (AoE)</b></span></li>
-            <li><b>Notification of decisions:</b> <span style="color: #228B22;"><b>13th February 2026, Friday (AoE)</b></span></li>
-            <li><b>Submission portal:</b> <a href="https://hotethics26.hotcrp.com/" target="_blank">HotCRP</a></li>
-            <li><b>Workshop:</b> 22nd March 2026, Sunday (@ ASPLOS 2026) </li>
+            <li><strong>Submission deadline:</strong> <span style="color: #0922dd;"><strong>January 30, 2026, Friday (AoE)</strong></span></li>
+            <li><strong>Notification of decisions:</strong> <span style="color: #228B22;"><strong>February 13, 2026, Friday (AoE)</strong></span></li>
+            <li><strong>Submission portal:</strong> <a href="https://hotethics26.hotcrp.com/" target="_blank" rel="noopener noreferrer">HotCRP</a></li>
+            <li><strong>Workshop:</strong> March 22, 2026, Sunday (co-located with ASPLOS 2026)</li>
           </ul>
         </div>
 
-
-
       </div>
-  </section><!-- End Call for Papers Section -->
-
+    </section>
 
     <!-- ======= Organizers Section ======= -->
     <section id="team" style="background: #f8f9fa; padding: 60px 0;">
@@ -657,112 +562,113 @@
           <h2>Organizers</h2>
         </div>
 
-            <div class="organizer-container">
-              <div class="organizer-item">
-                <a href="https://jaylenwang7.github.io/" class="img-link">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" alt="Jaylen Wang">
-                </a>
-                <h4><a href="https://jaylenwang7.github.io/">Jaylen Wang</a></h4>
-                <p>Carnegie Mellon University</p>
-                <p style="color: #C41230;">jaylenw@cmu.edu</p>
-              </div>
+        <div class="organizer-container">
+          <div class="organizer-item">
+            <a href="https://jaylenwang7.github.io/" class="img-link">
+              <img src="assets/img/testimonials/testimonials-1.jpg" alt="Jaylen Wang">
+            </a>
+            <h4><a href="https://jaylenwang7.github.io/">Jaylen Wang</a></h4>
+            <p>Carnegie Mellon University</p>
+            <p style="color: #C41230;">jaylenw@cmu.edu</p>
+          </div>
 
-              <div class="organizer-item">
-                <a href="https://smahdizadeh.github.io/" class="img-link">
-                  <img src="assets/img/testimonials/sara.jpg" alt="Sara Mahdizadeh Shahri">
-                </a>
-                <h4><a href="https://smahdizadeh.github.io/">Sara Mahdizadeh Shahri</a></h4>
-                <p>Carnegie Mellon University</p>
-                <p style="color: #C41230;">smahdiz@cmu.edu</p>
-              </div>
+          <div class="organizer-item">
+            <a href="https://smahdizadeh.github.io/" class="img-link">
+              <img src="assets/img/testimonials/sara.jpg" alt="Sara Mahdizadeh Shahri">
+            </a>
+            <h4><a href="https://smahdizadeh.github.io/">Sara Mahdizadeh Shahri</a></h4>
+            <p>Carnegie Mellon University</p>
+            <p style="color: #C41230;">smahdiz@cmu.edu</p>
+          </div>
 
-              <div class="organizer-item">
-                <a href="https://codverch.github.io/deepanjalimishra/" class="img-link">
-                  <img src="assets/img/testimonials/deepanjali.jpg" alt="Deepanjali Mishra">
-                </a>
-                <h4><a href="https://codverch.github.io/deepanjalimishra/">Deepanjali Mishra</a></h4>
-                <p>Carnegie Mellon University</p>
-                <p style="color: #C41230;">deepanjm@cmu.edu</p>
-              </div>
+          <div class="organizer-item">
+            <a href="https://codverch.github.io/deepanjalimishra/" class="img-link">
+              <img src="assets/img/testimonials/deepanjali.jpg" alt="Deepanjali Mishra">
+            </a>
+            <h4><a href="https://codverch.github.io/deepanjalimishra/">Deepanjali Mishra</a></h4>
+            <p>Carnegie Mellon University</p>
+            <p style="color: #C41230;">deepanjm@cmu.edu</p>
+          </div>
 
-              <div class="organizer-item">
-                <a href="https://www.abnashkb.com" class="img-link">
-                  <img src="assets/img/testimonials/abnash.jpg" alt="Abnash Bassi">
-                </a>
-                <h4><a href="https://www.abnashkb.com">Abnash Bassi</a></h4>
-                <p>Carnegie Mellon University</p>
-                <p style="color: #C41230;">abassi@cmu.edu</p>
-              </div>
+          <div class="organizer-item">
+            <a href="https://www.abnashkb.com" class="img-link">
+              <img src="assets/img/testimonials/abnash.jpg" alt="Abnash Bassi">
+            </a>
+            <h4><a href="https://www.abnashkb.com">Abnash Bassi</a></h4>
+            <p>Carnegie Mellon University</p>
+            <p style="color: #C41230;">abassi@cmu.edu</p>
+          </div>
 
-              <div class="organizer-item">
-                <a href="https://edge.seas.harvard.edu/people/vijay-janapa-reddi" class="img-link">
-                  <img src="assets/img/testimonials/vijay-reddi.jpeg" alt="Vijay Janapa Reddi">
-                </a>
-                <h4><a href="https://edge.seas.harvard.edu/people/vijay-janapa-reddi">Vijay Janapa Reddi</a></h4>
-                <p>Harvard University</p>
-                <p style="color: #C41230;">vj@eecs.harvard.edu</p>
-              </div>
+          <div class="organizer-item">
+            <a href="https://edge.seas.harvard.edu/people/vijay-janapa-reddi" class="img-link">
+              <img src="assets/img/testimonials/vijay-reddi.jpeg" alt="Vijay Janapa Reddi">
+            </a>
+            <h4><a href="https://edge.seas.harvard.edu/people/vijay-janapa-reddi">Vijay Janapa Reddi</a></h4>
+            <p>Harvard University</p>
+            <p style="color: #C41230;">vj@eecs.harvard.edu</p>
+          </div>
 
-              <div class="organizer-item">
-                <a href="https://cs.stanford.edu/~fiodar/" class="img-link">
-                  <img src="assets/img/testimonials/fiodar-kazhamiaka.jpg" alt="Fiodar Kazhamiaka">
-                </a>
-                <h4><a href="https://cs.stanford.edu/~fiodar/">Fiodar Kazhamiaka</a></h4>
-                <p>Microsoft Research</p>
-                <p style="color: #C41230;">fkazhamiaka@microsoft.com</p>
-              </div>
+          <div class="organizer-item">
+            <a href="https://cs.stanford.edu/~fiodar/" class="img-link">
+              <img src="assets/img/testimonials/fiodar-kazhamiaka.jpg" alt="Fiodar Kazhamiaka">
+            </a>
+            <h4><a href="https://cs.stanford.edu/~fiodar/">Fiodar Kazhamiaka</a></h4>
+            <p>Microsoft Research</p>
+            <p style="color: #C41230;">fkazhamiaka@microsoft.com</p>
+          </div>
 
-              <div class="organizer-item">
-                <a href="https://jbalkind.github.io" class="img-link">
-                  <img src="assets/img/testimonials/jonathan-balkind.jpeg" alt="Jonathan Balkind">
-                </a>
-                <h4><a href="https://jbalkind.github.io">Jonathan Balkind</a></h4>
-                <p>UC Santa Barbara</p>
-                <p style="color: #C41230;">jbalkind@ucsb.edu</p>
-              </div>
+          <div class="organizer-item">
+            <a href="https://jbalkind.github.io" class="img-link">
+              <img src="assets/img/testimonials/jonathan-balkind.jpeg" alt="Jonathan Balkind">
+            </a>
+            <h4><a href="https://jbalkind.github.io">Jonathan Balkind</a></h4>
+            <p>UC Santa Barbara</p>
+            <p style="color: #C41230;">jbalkind@ucsb.edu</p>
+          </div>
 
-              <div class="organizer-item">
-                <a href="http://josiahhester.com" class="img-link">
-                  <img src="assets/img/testimonials/josiah-hester.jpeg" alt="Josiah D. Hester">
-                </a>
-                <h4><a href="http://josiahhester.com">Josiah D. Hester</a></h4>
-                <p>Georgia Tech</p>
-                <p style="color: #C41230;">josiah@gatech.edu</p>
-              </div>
+          <div class="organizer-item">
+            <a href="http://josiahhester.com" class="img-link">
+              <img src="assets/img/testimonials/josiah-hester.jpeg" alt="Josiah D. Hester">
+            </a>
+            <h4><a href="http://josiahhester.com">Josiah D. Hester</a></h4>
+            <p>Georgia Tech</p>
+            <p style="color: #C41230;">josiah@gatech.edu</p>
+          </div>
 
-              <div class="organizer-item">
-                <a href="https://trevorcarlson.com" class="img-link">
-                  <img src="assets/img/testimonials/trevor.png" alt="Trevor E. Carlson">
-                </a>
-                <h4><a href="https://trevorcarlson.com">Trevor E. Carlson</a></h4>
-                <p>National University of Singapore</p>
-                <p style="color: #C41230;">tcarlson@nus.edu.sg</p>
-              </div>
+          <div class="organizer-item">
+            <a href="https://trevorcarlson.com" class="img-link">
+              <img src="assets/img/testimonials/trevor.png" alt="Trevor E. Carlson">
+            </a>
+            <h4><a href="https://trevorcarlson.com">Trevor E. Carlson</a></h4>
+            <p>National University of Singapore</p>
+            <p style="color: #C41230;">tcarlson@nus.edu.sg</p>
+          </div>
 
-              <div class="organizer-item" style="grid-column: 2;">
-                <a href="https://users.ece.cmu.edu/~asrirama/" class="img-link">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" alt="Akshitha Sriraman">
-                </a>
-                <h4><a href="https://users.ece.cmu.edu/~asrirama/">Akshitha Sriraman</a></h4>
-                <p>Carnegie Mellon University</p>
-                <p style="color: #C41230;">akshitha@cmu.edu</p>
-              </div>
-            </div>
+          <div class="organizer-item" style="grid-column: 2;">
+            <a href="https://users.ece.cmu.edu/~asrirama/" class="img-link">
+              <img src="assets/img/testimonials/testimonials-3.jpg" alt="Akshitha Sriraman">
+            </a>
+            <h4><a href="https://users.ece.cmu.edu/~asrirama/">Akshitha Sriraman</a></h4>
+            <p>Carnegie Mellon University</p>
+            <p style="color: #C41230;">akshitha@cmu.edu</p>
+          </div>
+        </div>
+
       </div>
-    </section><!-- End Organizers Section -->
+    </section>
 
-  </main><!-- End #main -->
+  </main>
 
   <!-- ======= Footer ======= -->
   <footer id="footer" style="background: #37517e; padding: 20px 0; display: flex; align-items: center; justify-content: center;">
     <div class="container">
       <div class="text-center">
         <p style="font-size: 1.1rem; color: #ffffff; font-style: italic; margin: 0;">
-          Last updated January 14, 2025 by Deepanjali Mishra
+          Last updated 16th March, 2026 by Deepanjali Mishra
         </p>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -782,14 +688,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
