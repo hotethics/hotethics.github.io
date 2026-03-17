@@ -243,9 +243,16 @@
       .organizer-item p { font-size: 0.9rem; }
     }
 
-    /* Program: consistent author and affiliation styling */
-    .program-table .program-author { font-weight: 600; color: #111; }
-    .program-table .program-affiliation { color: #555; font-weight: 400; }
+    /* Program: author/affiliation and aesthetic colors */
+    .program-table .program-author { font-weight: 600; color: #1a365d; }
+    .program-table .program-affiliation { color: #4a5568; font-weight: 400; }
+    .program-table thead th { background: #edf2f7; color: #2d3748; font-weight: 600; }
+    .program-table tbody td:first-child { color: #2b6cb0; font-weight: 500; }
+    .program-table tr td.bg-light { background: #ebf8ff !important; border-left: 4px solid #2b6cb0; color: #2c5282; }
+    .program-table .program-affiliation sup { color: #4a5568; }
+    p.text-center.my-4 strong { color: #2d3748; background: linear-gradient(90deg, #fef3c7 0%, #fde68a 100%); padding: 0.35em 0.75em; border-radius: 6px; }
+    #program h3.mt-4 { color: #1a365d; font-weight: 600; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.35rem; }
+    #program .small.text-muted { color: #718096 !important; }
   </style>
 </head>
 
@@ -315,7 +322,6 @@
       <div class="container">
         <div class="section-title">
           <h2>Program</h2>
-          <p><strong>HotEthics'26</strong> — Sunday, March 22, 2026 &nbsp;|&nbsp; 13:30 – 18:00 (240 min)</p>
         </div>
 
         <h3 class="mt-4">Afternoon Block 1 &nbsp;<small class="text-muted" style="font-size:1.2rem;">13:30 – 15:30</small></h3>
@@ -348,8 +354,7 @@
               <tr>
                 <td>14:30</td>
                 <td>Do Energy-Harvesting Pixels Reduce Carbon Cost of Visual Computing Systems? (#12)</td>
-                <td><span class="program-author">Han Yan<sup>1</sup>, Yifei Zou<sup>2</sup>, Weikai Lin<sup>1</sup>, Xuan Zhang<sup>2</sup>, Yuhao Zhu<sup>1</sup></span><br>
-                  <span class="program-affiliation"><sup>1</sup>University of Rochester &nbsp; <sup>2</sup>Northeastern University</span>
+                <td><span class="program-author">Han Yan<sup>1</sup>, Yifei Zou<sup>2</sup>, Weikai Lin<sup>1</sup>, Xuan Zhang<sup>2</sup>, Yuhao Zhu<sup>1</sup></span> <span class="program-affiliation">— <sup>1</sup>University of Rochester; <sup>2</sup>Northeastern University</span>
                 </td>
               </tr>
               <tr>
@@ -360,8 +365,7 @@
               <tr>
                 <td>15:00</td>
                 <td>The Need for Computational Pluralism (#78)</td>
-                <td><span class="program-author">Deeksha Dangwal</span> <span class="program-affiliation">— Unaffiliated, Seattle, WA</span><br>
-                  <span class="program-author">Abhejit Rajagopal</span> <span class="program-affiliation">— Allen Institute, Seattle, WA</span></td>
+                <td><span class="program-author">Deeksha Dangwal</span> <span class="program-affiliation">— Unaffiliated, Seattle, WA</span>; <span class="program-author">Abhejit Rajagopal</span> <span class="program-affiliation">— Allen Institute, Seattle, WA</span></td>
               </tr>
               <tr>
                 <td>15:15</td>
@@ -385,10 +389,7 @@
               <tr>
                 <td>16:00</td>
                 <td>Challenges and Design Considerations for Finding CUDA Bugs Through GPU-Native Fuzzing (#93)</td>
-                <td><span class="program-author">Mingkai Li</span> <span class="program-affiliation">(Columbia University)</span>,
-                  <span class="program-author">Joseph Devietti</span> <span class="program-affiliation">(University of Pennsylvania)</span>,
-                  <span class="program-author">Suman Jana</span> <span class="program-affiliation">(Columbia University)</span>,
-                  <span class="program-author">Tanvir Ahmed Khan</span> <span class="program-affiliation">(Columbia University)</span></td>
+                <td><span class="program-author">Mingkai Li</span> <span class="program-affiliation">— Columbia University</span>; <span class="program-author">Joseph Devietti</span> <span class="program-affiliation">— University of Pennsylvania</span>; <span class="program-author">Suman Jana</span> <span class="program-affiliation">— Columbia University</span>; <span class="program-author">Tanvir Ahmed Khan</span> <span class="program-affiliation">— Columbia University</span></td>
               </tr>
               <tr>
                 <td>16:15</td>
@@ -398,10 +399,7 @@
               <tr>
                 <td>16:30</td>
                 <td>Health-Aware AI Inference Scheduling with Long-Term Fairness Objectives (#66)</td>
-                <td><span class="program-author">Pengei Li</span> <span class="program-affiliation">(Rochester Institute of Technology)</span>,
-                  <span class="program-author">Yuelin Han</span> <span class="program-affiliation">(University of California, Riverside)</span>,
-                  <span class="program-author">Adam Wierman</span> <span class="program-affiliation">(California Institute of Technology)</span>,
-                  <span class="program-author">Shaolei Ren</span> <span class="program-affiliation">(University of California, Riverside)</span></td>
+                <td><span class="program-author">Pengei Li</span> <span class="program-affiliation">— Rochester Institute of Technology</span>; <span class="program-author">Yuelin Han</span> <span class="program-affiliation">— University of California, Riverside</span>; <span class="program-author">Adam Wierman</span> <span class="program-affiliation">— California Institute of Technology</span>; <span class="program-author">Shaolei Ren</span> <span class="program-affiliation">— University of California, Riverside</span></td>
               </tr>
 
               <tr><td colspan="3" class="bg-light"><strong>Panel Discussion</strong> (60 min)</td></tr>
